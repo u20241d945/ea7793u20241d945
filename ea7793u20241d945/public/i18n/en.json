@@ -1,0 +1,49 @@
+{
+  "app": {
+    "title": "TrailQuest Adventure Camp Management Platform"
+  },
+  "navigation": {
+    "home": "Home",
+    "new-reservation": "New Reservation"
+  },
+  "home": {
+    "title": "Home",
+    "introduction": "Smart Reservations and Capacity Management for Adventure Camps.",
+    "my-reservations": "My reservations",
+    "add-reservation": "Register new reservation",
+    "load-error": "Reservations could not be loaded. Start the local API and try again."
+  },
+
+  "reservation-type": {
+    "camping": "Camping",
+    "trekking": "Trekking",
+    "hiking": "Hiking",
+    "climbing": "Climbing"
+  },
+  "new-reservation": {
+    "title": "New Reservation",
+    "subtitle": "Register a new adventure camp reservation",
+    "reservation-type": "Reservation type",
+    "automatic-data": "Automatic indicators",
+    "select-type-hint": "Select a reservation type to load its indicators.",
+    "create-success": "Reservation created.",
+    "create-error": "The reservation could not be created."
+  },
+  "validation": {
+    "required": "This field is required.",
+    "index-rule": "Index must be greater than zero and greater than or equal to max Level."
+  },
+  "page-not-found": {
+    "title": "Page not found",
+    "message": "The requested route {{path}} was not found.",
+    "back-home": "Return to Home"
+  },
+  "common": {
+    "loading": "Loading...",
+    "empty": "Empty",
+    "create": "Create",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "select-type": "Select a type"
+  }
+}

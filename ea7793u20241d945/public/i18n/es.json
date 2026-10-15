@@ -1,0 +1,49 @@
+{
+  "app": {
+    "title": "Plataforma de gestión para campamentos de aventura TrailQuest"
+  },
+  "navigation": {
+    "home": "Hogar",
+    "new-reservation": "Nueva Reserva"
+  },
+  "home": {
+    "title": "Hogar",
+    "introduction": "Gestión inteligente de reservas y capacidad para campamentos de aventura.",
+    "my-reservations": "Mis reservas",
+    "add-reservation": "Registrar nueva reserva",
+    "load-error": "No se pudieron cargar las reservas. Inicie la API local y vuelva a intentarlo."
+  },
+
+  "reservation-type": {
+    "camping": "Camping",
+    "trekking": "Senderismo",
+    "hiking": "Hiking",
+    "climbing": "Escalada"
+  },
+  "new-reservation": {
+    "title": "Nueva Reserva",
+    "subtitle": "Registrar una nueva reserva de campamento de aventura",
+    "reservation-type": "Tipo de reserva",
+    "automatic-data": "Indicadores automáticos",
+    "select-type-hint": "Selecciona un tipo de reserva para cargar sus indicadores.",
+    "create-success": "Reserva creada.",
+    "create-error": "No se pudo crear la reserva."
+  },
+  "validation": {
+    "required": "Este campo es obligatorio.",
+    "index-rule": "El índice debe ser mayor que cero y mayor o igual que el nivel máximo."
+  },
+  "page-not-found": {
+    "title": "Página no encontrada",
+    "message": "La ruta solicitada {{path}} no fue encontrada.",
+    "back-home": "Regresar a la página principal"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "empty": "Vacío",
+    "create": "Crear",
+    "cancel": "Cancelar",
+    "saving": "Guardando...",
+    "select-type": "Seleccionar un tipo"
+  }
+}
