@@ -2,7 +2,7 @@ import { inject, Injectable, signal } from '@angular/core';
 import { finalize, Observable, tap } from 'rxjs';
 import { ReservationItem } from '../../domain/model/reservation-item.entity';
 import { CreateReservationItemRequest } from '../../infrastructure/requests/create-reservation-item.request';
-import { MonitoringApiService } from '../../infrastructure/services/monitoring-api.service';
+import { CampApiService } from '../../infrastructure/services/camp-api.service';
 
 /**
  * Manages trailquest reservation collection state with Angular Signals.
@@ -11,7 +11,7 @@ import { MonitoringApiService } from '../../infrastructure/services/monitoring-a
  */
 @Injectable({ providedIn: 'root' })
 export class ReservationStore {
-  private readonly api = inject(MonitoringApiService);
+  private readonly api = inject(CampApiService);
   private readonly itemsSignal = signal<ReservationItem[]>([]);
   private readonly loadingSignal = signal(false);
   private readonly errorSignal = signal(false);
