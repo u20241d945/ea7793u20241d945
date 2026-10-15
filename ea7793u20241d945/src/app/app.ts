@@ -1,12 +1,16 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { Layout } from './shared/presentation/components/layout/layout';
 
+/**
+ * Root shell for Trailquest Adventure Camps Platform.
+ *
+ * @author u20241d945
+ */
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [Layout],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('ea7793u20241d945');
 }
