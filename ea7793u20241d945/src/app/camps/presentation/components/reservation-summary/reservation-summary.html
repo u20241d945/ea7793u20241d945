@@ -1,0 +1,17 @@
+<mat-card class="quality-card" appearance="outlined">
+  <mat-card-header>
+    <div class="participants" aria-label="Participant Name">{{ item().participants }}</div>
+    <mat-card-title>{{ item().participantName }}</mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+    <dl class="metrics">
+
+    </dl>
+  </mat-card-content>
+
+  <mat-card-footer class="card-footer">
+
+    <span>{{ item().reservedAt | date: 'medium' }}</span>
+  </mat-card-footer>
+</mat-card>
